@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<link rel="icon"  href="Images/location.png" />
+<title>Pick & Drop</title>
+
+<script language="javascript" type="text/javascript">
+
+function val(){
+	
+	if(document.book.name.value=="")
+	{
+		window.alert("Please enter your name ! ");
+		return;
+		}
+	
+	if(document.book.email.value=="")
+	{
+		window.alert("Please enter your email !");
+		return;
+		}
+	
+	if(document.book.From.value=="")
+	{
+		window.alert("Please enter the start location !");
+		return;
+		}
+	
+	if(document.book.To.value=="")
+	{
+		window.alert("Please enter the destination.");
+		return;
+		}
+	
+	if(document.book.Time.value=="")
+	{
+		window.alert("Enter the time.");
+		return;
+		}
+	
+	if(document.book.Date.value=="")
+	{
+		window.alert("Enter the Date.");
+		return;
+		}
+	
+	if((document.book.comfort[0].checked=="")&&(document.book.comfort[1].checked==""))
+	{
+		window.alert("Select your vehicle type");
+		return;
+		}
+	
+	if(document.book.Adults.selectedIndex ==0)
+	{
+		window.alert("Select number of adults.");
+		return;
+		}
+	
+	if(document.book.Child.selectedIndex==0)
+	{
+		window.alert("Select number of child");
+		return;
+		}
+	
+	if(document.book.message.value=="")
+	{
+		window.alert("Type your message");
+		return;
+		}							
+	
+	
+	}
+</script>
+
+<script>
+
+$(function () {
+	$(".ul li a").click(function (e) {
+		e.preventDefault();
+		$(".ul li a").addClass("active").not(this).removeClass("active");
+	});
+});
+
+</script>
+
+
+</head>
+
+
+<body class="bgcolor">
+							<!-------header-------->
+
+<header id="header">
+	<div id="menu">
+  <!--  logo-->
+  <span class="logo_span"> <a href="index.html"> <img class="logo_img" src="Images/location.png"/></a></span>
+  <!-- End logo-->
+    <ul class="ul">
+  	 <li><span class="span"><a class="active" href="index.html">Home</a></span></li>
+   	<li> <span class="span"><a href="About.html">About</a></span></li>
+   	<li><span class="span"><a href="Service.html">Service</a></span></li>
+  	 <li><span class="span"><a href="Contact.html">Contact</a></span></li>
+    </ul>
+    
+    </div>
+</header>
+		
+        					<!-------header End-------->
+
+
+
+<div>
+	<video playsinline autoplay muted loop class="video"> 
+		<source src="videos/Wow Night City Traffic Time.MP4" type="video/mp4"> 
+ 
+	</video> 
+	<div class="overlay">
+		<h1 class="h1"><mark class="mark"><u>Call us To Pick Now<br>+94117767676</u></mark></h1>
+	</div>
+</div>
+
+
+
+ 
+ 
+ 
+<div class="container1" >
+ <div class="content2">
+ <h2 class="h2"><u>Pic & Drops</u></h2> <br/>
+ <p3>
+Welcome to the official website of Pic&Drop Cabs, the pioneer and market leader of the Cab taxi service industry in Sri Lanka. 
+If you require a reliable, cost effective and comfortable cab taxi service provider in Colombo,
+then Pic&Drop Cabs is your first choice among the taxi service providers in the city.
+We at Pic&Drop Cabs guarantee the provision of exceptional quality of service together with the most exclusive rates for Airport Transfers and Tour packages within Sri Lanka. 
+<br>
+You can now instantly book your cabs online using our “Quick Booking” cab. Bookings placed will be attended to immediately as would be over our hotline.
+Confirmation of your booking will be done via an SMS.<br>
+For customized packages and tours please email us on bookings@pic.com or call us on +94117767676.
+</p3>
+</div>
+</div>  
+ 
+ 
+ 
+<div id="parallex1"></div>
+
+
+
+<div class="container2" >
+ 	
+    <h4 class="h4"><U>Our services</U></h4>
+
+ <div class="col">
+		<img src="Images/service_img1.jpg" alt="service_img1 "/>
+				<div class="banner_box">
+					<span class="span_text">Taxi Service</span>
+							<a href="" class="link2"></a>
+						</div>
+						<p class="desc">Scroll Up and Down this page to see the parallax scrolling effect.
+							This div is just here to enable scrolling.
+                            </p>
+						<div class="more">
+						  <a href="#" class="button">Read More</a>
+						</div>
+				</div>
+ 
+ 
+ <div class="col">
+		<img src="Images/service_img1.jpg" alt=" "/>
+				<div class="banner_box">
+					<span class="span_text">Taxi Service</span>
+							<a href="" class="link2"></a>
+						</div>
+						<p class="desc">Scroll Up and Down this page to see the parallax scrolling effect.
+							This div is just here to enable scrolling.
+                            </p>
+						<div class="more">
+						  <a href="#" class="button">Read More</a>
+						</div>
+				</div>
+ 
+  <div class="col">
+		<img src="Images/service_img1.jpg" alt=" "/>
+				<div class="banner_box">
+					<span class="span_text">Taxi Service</span>
+							<a href="" class="link2"></a>
+						</div>
+						<p class="desc">Scroll Up and Down this page to see the parallax scrolling effect.
+							This div is just here to enable scrolling.
+                            </p>
+						<div class="more">
+						  <a href="#" class="button">Read More</a>
+						</div>
+				</div>
+ 
+
+ 
+ 
+ 
+<!--<p><b> para 2</b> <br/>
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</p1>-->
+</div> 
+
+
+<div class="container3_2"> 
+	
+		
+			<span class="grid_span2">
+				<h5>Call US !  +94117767676</h5>
+				</span>
+			
+		</div>
+	
+ 
+ 
+
+
+							<!--Booking content-->
+
+<div class="container4">
+<div class="book">
+<P>
+<h5> <b><u>Don't Wait ! </u></b> </h5><br/>
+
+<form action="book.php" method="post" name="book">
+	<fieldset class="fieldset">
+ 	<legend><b>Book Now !</b></legend>
+   <span class="book_span"> 	Name: <input type="text" name="name" placeholder="name :" ></span>
+      <span class="book_span"> 	Email : <input type="text" name="email" placeholder="Email :" ><br></span></br><br>
+      <span class="book_span">	From : <input type="text" name="From" placeholder="From :"></span>
+       	<span class="book_span">To  </span><span class="book_span">: <input type="text" name="To" placeholder="To : "></span><br><br/>
+        <span class="book_span">Time : <input type="text" name="Time" placeholder="Time :"></span>
+        <span class="book_span">Date  : <input type="text" name="Date" placeholder="28/08/2017"></span><br><br>
+    	<span class="book_span">Comfort: <input type="radio" name="comfort" value="Lux">Lux<br>	</span>
+        		 <span class="book_span"><input type="radio" name="comfort" value="standard">standard<br></span>
+                <span class="book_span"> <input type="radio" name="comfort" value="economy">Economy<br></span></br><br>
+                 
+      <span class="book_span"> Adults : </span><span class="book_span"><select name="Adults">
+        		<option  name="Adults" value=""></option>
+                <option  name="Adults" value="0">0</option>
+                <option  name="Adults" value="1">1</option>
+                <option  name="Adults" value="2">2</option>
+                <option  name="Adults" value="3">3</option>
+                <option  name="Adults" value="4">4</option>
+                <option  name="Adults" value="5">5</option>
+        </select><br></span>
+       <span class="book_span"> Child : <select name="Child">
+        		<option name="Child" value=""></option>
+                <option name="Child" value="0">0</option>
+                <option name="Child" value="1">1</option>
+                <option name="Child" value="2">2</option>
+                <option name="Child" value="3">3</option>
+                <option name="Child" value="4">4</option>
+                <option name="Child" value="5">5</option>
+        </select><br></span></br><br>
+    	
+    	<span class="book_span">Message:</span> <span class="book_span"> <textarea name="message" rows="10" cols="30" placeholder="Type here"></textarea></span></br>
+        <br><br><br></br>
+        <span class="book_span"><input type="Button" name"book" value="submit" onClick="val()"; ></span>
+    	<span class="book_span"><input type="reset" name="res" value="clear"></span>
+    
+ </fieldset>
+
+</form>
+
+</P>
+
+
+
+
+
+</div>
+
+
+</div>
+
+<div id="parallex3"></div>
+
+
+<div class="footer">
+    
+ 	   <span class="socials " style="margin-left:520px;"><a href="#"><img src="Images/fb.png" ></a></span>
+		 <span class="socials"><a href="#"><img src="Images/tw.png"></a></span>
+          <span class="socials"><a href="#"><img src="Images/GPP small.png"></a></span>
+        
+    	<div class="socials_div"> 
+         <span class="zero" > Web design by <a href="#" class=""> Zero Dreams</a></span>
+       
+         
+   </div>             
+</div>
+
+
+
+
+</body>
+</html>

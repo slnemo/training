@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<link rel="icon"  href="Images/location.png" />
+<title>Pick & Drop</title>
+<title>About</title>
+
+<script language="javascript" type="text/javascript">
+
+function send(){
+	
+	if(document.msg.name.value=="")
+	{
+		window.alert("Please enter your name !");
+		return;
+		}
+	
+	if(document.msg.phone.value=="")
+	{
+		window.alert("Enter the phone number");
+		return;
+		}
+	
+	if(isNaN(document.msg.phone.value))
+	{
+		window.alert("It should be numeric");
+		return;
+		}
+	
+	if(document.msg.email.value=="")
+	{
+		window.alert("Enter your email");
+		return;
+		}
+	
+	if(document.msg.message.value=="")
+	{
+		window.alert("Type your message ");
+		return;
+		}				
+	
+	}
+
+
+</script>
+
+</head>
+
+<body class="bgcolor">
+
+									<!--header-->
+                                    
+                                    
+
+<header id="header">
+	<div id="menu">
+  <!--  logo-->
+  <span class="logo_span"> <a href="index.html"> <img class="logo_img" src="Images/location.png"/></a></span>
+  <!-- End logo-->
+    <ul class="ul">
+   <li><span class="span"><a   href="index.html">Home</a></span></li>
+   <li> <span class="span"><a  href="About.html">About</a></span></li>
+   <li><span class="span"><a href="Service.html">Service</a></span></li>
+   <li><span class="span"><a class="active" href="Contact.html">Contact</a></span></li>
+    </ul>
+    
+    </div>
+</header>
+		
+        					<!-------header End-------->
+                            
+                            <!-------Content-------->
+ <div class="grid_6"> 
+ 	<div class="content"> 
+    						<h6>Find Us</h6>                       
+     <div class="map">
+		<figure>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15823.453998850693!2d80.35510837141115!3d7.480321648380616!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1499617588031" style="border:0">
+            </iframe>
+		</figure>
+      </div>
+	</div>
+</div>
+
+
+ <div class="grid_7" >
+ 	<div class="content">
+
+						<h6>Contact Us</h6>
+
+		<!--<span class="grid_span2">
+				<pre><u><b>Contact Us</b></u></pre>
+				</span>
+-->
+
+
+
+<div class="box">
+
+	<span class="contact_text">
+		<p>
+			<span class="icon"><img src="Images/mail.png" alt=""></span>
+			Phone:  
+			+94117767676 
+
+		
+			</span>
+        </p>
+</div>
+
+
+<div class="box">
+
+		<span class="contact_text">
+			<p>
+				<span class="icon"><img src="Images/mail.png" alt=""></span>
+					Email :  
+					bookings@pic.com
+
+				</span>
+             </p>
+</div>
+
+
+<div class="box">
+
+		<span class="contact_text">
+			<p>
+				<span class="icon"><img src="Images/mail.png" alt=""></span>
+					Address : 
+					Kurunagala, 
+					Sri Lanka. 
+				</span>
+             </p>   
+		</div>
+
+
+
+
+ 									<!--Messeage-->
+
+
+
+<div class="msg_form_div">
+
+<form action="message.php" method="post" name="msg" class="msg_form">
+	<fieldset class="fieldset">
+ 	
+  	    <span class="book_span"> 	Name &nbsp; : &nbsp; <input type="text" name="name" placeholder="name :" ></span>
+        <span class="book_span"> 	Phone &nbsp; :  &nbsp; <input type="text" name="phone" placeholder="Phone No :" ></span>
+  		<span class="book_span"> 	Email &nbsp; :  &nbsp; <input type="text" name="email" placeholder="Email :" ><br></span></br><br><br>
+    	<span class="book_span">Message  &nbsp;: &nbsp;</span>
+       <textarea name="message" rows="10" cols="30" placeholder="Type here"></textarea></br>
+        <br>
+        <span class="book_span"><input type="button" name"Submit" value="Send" onClick="send()"; ></span>
+    	<span class="book_span"><input type="reset" name="clear" value="Clear"></span>
+    
+ </fieldset>
+
+</form>
+
+</div>
+
+
+
+
+</div>  
+   </div>
+                            
+                            
+ 
+ 
+
+
+
+
+
+
+
+ 
+                            
+                            
+                            
+                            <!-------Footer-------->
+<div class="footer">
+    
+ 	   <span class="socials " style="margin-left:520px;"><a href="#"><img src="Images/fb.png" ></a></span>
+		 <span class="socials"><a href="#"><img src="Images/tw.png"></a></span>
+          <span class="socials"><a href="#"><img src="Images/GPP small.png"></a></span>
+        
+    	<div class="socials_div"> 
+        <span class="zero" > Web design by <a href="#" class=""> Zero Dreams</a></span>
+         
+   </div>             
+</div>
+ 
+ 
+                            
+</body>
+</html>
